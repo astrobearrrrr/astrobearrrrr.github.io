@@ -1,0 +1,197 @@
+/* Chinese CV page */
+
+#main .cn-cv {
+    font-family: "Microsoft YaHei", "PingFang SC", "Noto Sans CJK SC", sans-serif;
+    line-height: 1.85;
+}
+
+#main .cn-profile {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 145px;
+    gap: 2rem;
+    align-items: center;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgba(210, 215, 217, .85);
+}
+
+#main .cn-name-row {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+#main .cn-profile h1 {
+    margin: 0 0 .35rem;
+}
+
+#main .cn-affiliation {
+    margin: 0;
+    color: #555;
+}
+
+#main .cn-research-summary {
+    margin: 1.2rem 0 .7rem;
+}
+
+#main .cn-contact {
+    margin: 0;
+    font-size: .9rem;
+}
+
+#main .cn-contact span {
+    margin: 0 .3rem;
+    color: #888;
+}
+
+#main .cn-portrait {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 0;
+    box-shadow: none;
+}
+
+#main .cn-section {
+    margin: 2.75rem 0;
+    scroll-margin-top: 2rem;
+}
+
+#main .cn-section > h2 {
+    margin-bottom: 1.35rem;
+    padding-bottom: .5rem;
+    border-bottom: 2px solid #b07a54;
+}
+
+#main .cn-section h3 {
+    margin: 0 0 .25rem;
+    font-size: 1.05rem;
+}
+
+#main .cn-timeline-item {
+    display: grid;
+    grid-template-columns: 10.5rem minmax(0, 1fr);
+    gap: 1.25rem;
+    margin: 1.5rem 0;
+}
+
+#main .cn-date {
+    color: #8a5a3b;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+#main .cn-entry p {
+    margin: .25rem 0;
+}
+
+#main .cn-meta,
+#main .cn-status,
+#main .cn-section-note {
+    color: #666;
+    font-size: .92rem;
+}
+
+#main .cn-list {
+    margin: .65rem 0 0;
+    padding-left: 1.25rem;
+}
+
+#main .cn-list li {
+    margin: .25rem 0;
+}
+
+#main .cn-publications {
+    padding-left: 1.5rem;
+}
+
+#main .cn-publications > li {
+    margin: 1.5rem 0;
+    padding-left: .3rem;
+}
+
+#main .cn-pub-year {
+    display: block;
+    margin-bottom: .35rem;
+    color: #8a5a3b;
+    font-weight: 700;
+}
+
+#main .cn-publications p {
+    margin: .3rem 0;
+}
+
+#main .cn-pub-note {
+    color: #666;
+    font-size: .9rem;
+}
+
+#main .cn-doi {
+    font-size: .88rem;
+}
+
+#main .cn-research-entry {
+    margin: 1.5rem 0 2rem;
+}
+
+#main .cn-research-entry p {
+    margin: .5rem 0 0;
+}
+
+#main .cn-skill-row {
+    display: grid;
+    grid-template-columns: 7rem minmax(0, 1fr);
+    gap: 1rem;
+    margin: .9rem 0;
+}
+
+#main .cn-skill-row h3 {
+    margin: 0;
+}
+
+@media screen and (max-width: 736px) {
+    #main .cn-profile {
+        grid-template-columns: minmax(0, 1fr) 95px;
+        gap: 1rem;
+        align-items: start;
+    }
+
+    #main .cn-name-row {
+        align-items: flex-start;
+        gap: .6rem;
+    }
+
+    #main .cn-profile h1 {
+        font-size: 1.7rem;
+    }
+
+    #main .cn-affiliation {
+        font-size: .88rem;
+    }
+
+    #main .cn-contact span {
+        margin: 0 .1rem;
+    }
+
+    #main .cn-timeline-item {
+        grid-template-columns: minmax(0, 1fr);
+        gap: .2rem;
+        margin: 1.25rem 0;
+    }
+
+    #main .cn-date {
+        font-size: .9rem;
+    }
+
+    #main .cn-skill-row {
+        grid-template-columns: minmax(0, 1fr);
+        gap: .2rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #main .cn-profile {
+        grid-template-columns: minmax(0, 1fr) 78px;
+    }
+
+}
